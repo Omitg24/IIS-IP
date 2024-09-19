@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=makeOutWord
+comment0.text=\r\n\ Clase\ makeOutWord\ \ \ \ \ \ \ \ para\ la\ tarea\ de\ la\ Sesi\u00F3n\ 3\r\n\ \r\n\ @author\ Omar\ Teixeira\ Gonz\u00E1lez\r\n\ @version\ 30/09/2020\r\n
+comment1.params=
+comment1.target=makeOutWord()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ makeOutWord\r\n
+comment2.params=out\ word
+comment2.target=java.lang.String\ makeOutWord(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ M\u00E9todo\ para\ mover\ una\ palabra\ entre\ dos\ signos,\ por\ ejemplo\:\ \r\n\ "<<>>,\ Hola"\ a\ "<<Hola>>"\r\n\ \r\n\ @param\ \ situar\ a\ la\ palabra\ entre\ las\ expresiones\r\n\ @return\ \ \ \ \ makeOutWord,\ la\ palabra\ entre\ las\ expresiones\ dadas\r\n
+numComments=3

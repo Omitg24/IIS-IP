@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=WheelTest
+comment0.text=\r\n\ Clase\ de\ prueba\ de\ la\ clase\ Wheel\r\n\r\n\ @author\ \ Omar\ Teixeira\ Gonz\u00E1lez\r\n\ @version\ 14-12-20\r\n
+comment1.params=
+comment1.target=void\ testConstructorWithoutParams()
+comment1.text=\r\n\ Prueba\ para\ el\ constructor\ sin\ par\u00E1metros\ ->\ Dejar\u00E1\ los\ valores\ est\u00E1ndar\r\n\ \r\n
+comment2.params=
+comment2.target=void\ testConstructorWithParamsOkay()
+comment2.text=\r\n\ 1-\ Valores\ son\ congruentes\ ->\ Cambiar\ los\ valores\r\n
+comment3.params=
+comment3.target=void\ testConstructorWithParamsNotOkay()
+comment3.text=\r\n\ 2-\ Valores\ no\ son\ congruentes\ ->\ Valores\ por\ defecto\r\n
+comment4.params=
+comment4.target=void\ testWheelTrue()
+comment4.text=\r\n\ 1-\ Rueda\ con\ test\ true\r\n
+comment5.params=
+comment5.target=void\ testWheelFalse()
+comment5.text=\r\n\ 2-\ Rueda\ con\ test\ false\r\n
+numComments=6

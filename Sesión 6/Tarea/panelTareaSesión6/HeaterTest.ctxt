@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=HeaterTest
+comment0.text=\r\n\ Clase\ Test\ para\ la\ Clase\ Heater\r\n\r\n\ @author\ \ Omar\ Teixeira\ Gonz\u00E1lez\r\n\ @version\ 23-10-20\r\n
+comment1.params=
+comment1.target=HeaterTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ HeaterTest\r\n
+comment2.params=
+comment2.target=void\ testChangeTemperatureEqualMinTemp()
+comment2.text=\r\n\ 1-Valor\ igual\ a\ 10\ grados\ ->\ Cambiar\ el\ valor\r\n
+comment3.params=
+comment3.target=void\ testChangeTemperatureBetweenMinTempMaxTemp()
+comment3.text=\r\n\ 2-\ Valor\ entre\ 10\ y\ 27\ grados\ ->\ Cambiar\ el\ valor\r\n
+comment4.params=
+comment4.target=void\ testChangeTemperatureEqualMaxTemp()
+comment4.text=\r\n\ 3-\ Valor\ igual\ a\ 27\ grados\ ->\ Cambiar\ el\ valor\r\n
+comment5.params=
+comment5.target=void\ testChangeTemperatureBelowMinTemp()
+comment5.text=\r\n\ 4-\ Valor\ inferior\ a\ 10\ grados\ ->\ No\ cambiar\ el\ valor\r\n
+comment6.params=
+comment6.target=void\ testChangeTemperatureOverMaxTemp()
+comment6.text=\r\n\ 5-\ Valor\ superior\ a\ 27\ grados\ ->\ No\ cambiar\ el\ valor\r\n
+comment7.params=
+comment7.target=void\ testToString()
+comment7.text=\r\n\ Unico\ escenario\ para\ la\ prueba\ del\ m\u00E9todo\ toString\ de\ la\ clase\ Heater\r\n
+numComments=8

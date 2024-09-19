@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Heater
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Heater\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Heater()
+comment1.text=\r\n\ Constructor\ sin\ par\u00E1metros\ para\ la\ clase\ Heater\r\n
+comment2.params=temperature
+comment2.target=Heater(double)
+comment2.text=\r\n\ Constructor\ con\ par\u00E1metro\ Temperature\ para\ la\ case\ Heater\r\n
+comment3.params=condition
+comment3.target=boolean\ checkParam(boolean)
+comment3.text=\r\n\ Comprueba\ que\ el\ parametro\ es\ o\ no\ correcto\r\n\r\n\ @param\ \ condition,\ condici\u00F3n\ a\ evaluar,\ de\ tipo\ boolean\r\n\ @return\ \ \ \ \ true\ o\ false\ en\ funci\u00F3n\ del\ par\u00E1metro\r\n
+comment4.params=
+comment4.target=double\ getTemperature()
+comment4.text=\r\n\ M\u00E9todo\ que\ devuelve\ el\ valor\ de\ la\ temperatura\r\n\ \r\n\ @return\ temperature,\ el\ valor\ de\ la\ temperatura,\ de\ tipo\ double\r\n
+comment5.params=temperature
+comment5.target=void\ changeTemperature(double)
+comment5.text=\r\n\ M\u00E9todo\ que\ modifica\ el\ valor\ de\ la\ temperatura\r\n\ \r\n\ @param\ temperature,\ nuevo\ valor\ para\ la\ temparatura,\ de\ tipo\ double\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ M\u00E9todo\ que\ devuelve\ la\ cadena\ con\ el\ valor\ de\ la\ temperatura\ correspondiente\r\n\ \r\n\ @return\ toString,\ cadena\ con\ el\ valor\ correspondiente,\ de\ tipo\ String\r\n
+numComments=7

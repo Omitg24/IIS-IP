@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=PlayerTest
+comment0.text=\r\n\ The\ test\ class\ PlayerTest.\r\n\r\n\ @author\ \ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=PlayerTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ PlayerTest\r\n
+comment2.params=
+comment2.target=void\ testConstructorNoParams()
+comment2.text=\r\n\ Pruebas\ del\ constructor\ sin\ par\u00E1metros\r\n
+comment3.params=
+comment3.target=void\ testConstructorWithParams()
+comment3.text=\r\n\ 1-\ Name\ no\ es\ null\ ->\ Cambia\ el\ valor\r\n
+comment4.params=
+comment4.target=void\ testConstructorWithParamsNull()
+comment4.text=\r\n\ 2-\ Name\ es\ null\ ->\ Por\ defecto\r\n
+comment5.params=
+comment5.target=void\ testtoString()
+comment5.text=\r\n\ Prueba\ del\ m\u00E9todo\ toString\r\n
+numComments=6

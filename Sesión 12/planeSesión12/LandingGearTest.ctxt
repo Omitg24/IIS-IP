@@ -1,0 +1,58 @@
+#BlueJ class context
+comment0.target=LandingGearTest
+comment0.text=\r\n\ The\ test\ class\ LandingGearTest.\r\n\r\n\ @author\ \ Omar\ Teixeira\ Gonz\u00E1lez\r\n\ @version\ 4-10-20\r\n
+comment1.params=
+comment1.target=LandingGearTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ LandingGearTest\r\n
+comment10.params=
+comment10.target=void\ testTestAllFalse()
+comment10.text=\r\n\ 4-\ Los\ test\ de\ los\ tres\ test\ son\ false\ ->\ Devuelve\ false\r\n
+comment11.params=
+comment11.target=void\ testTestResultTrue()
+comment11.text=\r\n\ 1-\ El\ test\ es\ true\ ->\ Devuelve\ true\r\n
+comment12.params=
+comment12.target=void\ testTestResultFalse()
+comment12.text=\r\n\ 2-\ El\ test\ es\ false\ ->\ Devuelve\ false\r\n
+comment13.params=
+comment13.target=void\ testStrutStateOn()
+comment13.text=\r\n\ 1-\ Puntal\ desplegado\ y\ las\ presiones\ est\u00E1n\ bien->\ Devuelve\ "ON"\r\n
+comment14.params=
+comment14.target=void\ testStrutStateOff()
+comment14.text=\r\n\ 2-\ Puntal\ replegado\ y\ las\ presines\ est\u00E1n\ bien->\ Devuelve\ "OFF"\r\n
+comment15.params=
+comment15.target=void\ testStrutStatePress()
+comment15.text=\r\n\ 3-\ Necesita\ camibos\ en\ las\ presiones\ ->\ Devuelve\ "PRESS"\r\n
+comment16.params=
+comment16.target=void\ testLeverToStringTrue()
+comment16.text=\r\n\ 1-\ La\ palanca\ es\ true\ ->\ Devuelve\ UP\r\n
+comment17.params=
+comment17.target=void\ testLeverToStringFalse()
+comment17.text=\r\n\ 1-\ La\ palanca\ es\ false\ ->\ Devuelve\ DOWN\r\n
+comment18.params=
+comment18.target=void\ tesToStringAllNotOk()
+comment18.text=\r\n\ 2-\ Lever\:\ DOWN\ Status\:\ FAILURE\ Nose\:\ OFF\ Left\:\ OFF\ Right\:\ OFF\r\n
+comment2.params=
+comment2.target=void\ testConstructorWithoutParams()
+comment2.text=\r\n\ Prueba\ del\ constructor\ sin\ par\u00E1metros\ para\ la\ clase\ LandingGear\r\n
+comment3.params=
+comment3.target=void\ testMoveLeverUpWhenUp()
+comment3.text=\r\n\ 1-\ Si\ est\u00E1\ Up\ y\ llamo\ action\ \=\ Up\ ->\ todo\ queda\ igual\r\n
+comment4.params=
+comment4.target=void\ testMoveLeverUpWhenDown()
+comment4.text=\r\n\ 2-\ Si\ est\u00E1\ Down\ y\ llamo\ action\ \=\ Up\ ->\ Palanca\ pasa\ a\ Up\ y\ puntales\ quedan\ replegados\r\n
+comment5.params=
+comment5.target=void\ testMoveLeverDownWhenUp()
+comment5.text=\r\n\ 3-\ Si\ est\u00E1\ Up\ y\ action\ \=\ Down\ ->\ Palaca\ pasa\ a\ down\ y\ puntales\ se\ despliegan\r\n
+comment6.params=
+comment6.target=void\ testMoveLeverDownWhenDown()
+comment6.text=\r\n\ 4-\ Si\ est\u00E1\ down\ y\ action\ \=\ down\ ->\ No\ se\ modifica\ nada\r\n
+comment7.params=
+comment7.target=void\ testTestAllTrue()
+comment7.text=\r\n\ 1-\ Los\ test\ de\ los\ tres\ puntales\ son\ true\ ->\ Devuelve\ true\r\n
+comment8.params=
+comment8.target=void\ testTestOneFalse()
+comment8.text=\r\n\ 2-\ 1\ de\ los\ puntales\ tiene\ test\ false,\ el\ resto\ true\ ->\ Devuelve\ false\r\n
+comment9.params=
+comment9.target=void\ testTestTwoFalse()
+comment9.text=\r\n\ 3-\ 2\ de\ los\ puntales\ tienen\ test\ false,\ el\ otro\ true\ ->\ Devuelve\ false\r\n
+numComments=19

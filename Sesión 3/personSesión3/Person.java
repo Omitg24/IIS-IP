@@ -1,0 +1,261 @@
+
+;
+/**
+ * Clase Persona, con
+ * Sesión 1:
+ *      Atributos nombre y edad con métodos de modificación y acceso
+ * Tarea No Presencial Sesión 1:
+ *      Se añade apellido y género
+ * Sesión 2:
+ *      Control de rango en la edad
+ *      Uso de métodos de modificación en el constructor en lugar de asignación directa
+ *      Método print que imprima mensaje con la edad y todos los datos de la persona
+ *      Método toString. Método tuUpperCase de String
+ *      Constantes para rangos de edad y género
+ * Tarea No Presencial Sesión 2:
+ *      Método getCriticalAge()
+ *      Constantes  ADULTHOOD_AGE y RETIREMENT_AGE
+ * Sesión 3:
+ *      Creación de clases de Pruebas y su ejecución
+ * 
+ * 
+ * @author Omar Teixeira González 
+ * @version 23-9-2020
+ */
+public class Person
+{
+    // atributos constantes
+    public static final int MIN_AGE = 0;       //edad mínima
+    public static final int MAX_AGE = 120;     //edad máxima
+
+    public static final int ADULTHOOD_AGE = 18;     //edad mayoría de edad
+    public static final int RETIREMENT_AGE = 65;     //edad jubilación
+
+    public static final boolean GENDER_MALE = true;
+    public static final boolean GENDER_FEMALE = false;
+
+    // variables de instancia (atributos variables)
+    private static String name;      // nombre para la persona 
+    private int age;       // edad para la persona
+    private String surname;     // apellido para la persona
+    private boolean gender;     // gÃ©nero para la persona, true Masculino y false Femenino
+
+    /**
+     * Constructor for objects of class Person
+     */
+    public Person()
+    {
+        setName("Fernando");
+        setAge(39);
+        setSurname("Alonso");
+        setGender(GENDER_MALE);
+    }
+    
+    /**
+     * Constructor con parámetro la edad de la persona
+     * el resto de los datos serán los que se asignan en el constructor sin parámetro
+     * 
+     *@param edad con que se crea el objeto
+     */
+    public Person(int age)
+    {
+        this();
+        setAge(age);
+    }
+    
+    /**
+     * Constructor recibe todos los datos de la persona
+     * el resto de los datos serán los que se asignan en el constructor sin parámetro
+     * En caso de erro en algún parámetro debe deja el valor por defecto
+     * 
+     *@param edad con que se crea el objeto
+     *@param ... AÑADIR
+     */
+    public Person(String name, String surname, int age, boolean gender)
+    {
+        this();
+        setName(name);
+        setAge(age);
+        setSurname(surname);
+        setGender(gender);
+    }
+
+    /**
+     * MÃ©todo que devuelve el valor del atributo name
+     * 
+     * 
+     * @return     name, nombre de la persona, de tipo String 
+     */
+    public String getName()
+    {
+        return name;
+    }
+
+    /**
+     * MÃ©todo que modifica el valor del atributo name
+     *
+     * @param  newName  nuevo nombre para el atributo name
+     * 
+     */
+    public void setName(String newName)
+    {
+        name = newName;
+    }
+
+    /**
+     * MÃ©todo que devuelve el valor del atributo age
+     *
+     * 
+     * @return     age, edad de la persona, de tipo int
+     */
+    public int getAge()
+    {
+        return age;
+    }
+
+    /**
+     * MÃ©todo que modifica el valor del atributo age
+     *
+     * @param  newAge   nueva edad para el atributo age
+     * 
+     */
+    public void setAge(int age)
+    {
+        if(checkParam(age >= MIN_AGE && age < MAX_AGE))   {
+            this.age = age;
+        }
+    }
+
+    /**
+     * Comprueba que el parametro es o no correcto
+     *
+     * @param  condition, condición a evaluar, de tipo boolean
+     * @return     true o fdalse en función del parámetro
+     */
+    private boolean checkParam(boolean condition)
+    {
+        // if (condition = true){
+        //return true;
+        // }else {
+        //return false;
+        //}
+        return condition;
+    }
+
+    /**
+     * MÃ©todo que devuelve el valor del atributo surname
+     *
+     * 
+     * @return     surname, apellido de la persona, de tipo String
+     */
+    public String getSurname()
+    {
+        return surname;
+    }
+
+    /**
+     * MÃ©todo que modifica el valor del atributo surname
+     *
+     * @param  newSurname   nuevo apellido para el atributo surname
+     * 
+     */
+    public void setSurname(String NewSurname)
+    {
+        this.surname = surname;
+    }
+
+    /**
+     * MÃ©todo que devuelve el valor del atributo gender
+     *
+     * 
+     * @return     gender, gÃ©nero de la persona, de tipo Boolean
+     */
+    public boolean getGender()
+    {
+        return gender;
+    }
+
+    /**
+     * MÃ©todo que modifica el valor del atributo gender
+     *
+     * @param  newGender    nuevo gÃ©nero para el atributo gender
+     * 
+     */
+    public void setGender(boolean NewGender)
+    {
+        this.gender = gender;
+    }
+
+    /**
+     * Método que imprime por pantalla un mensaje con información de la edad
+     * de la persona y la que tendrá el proximo año. En el siguiente formato ejemplo:
+     * "Tengo 26 años y el año que viene tendré 26"
+     * Además muestra por pantalla todos los valores de los atributos en el formato
+     *"Nombre: Fernando; Apellido: Alonso; Edad: 39; Género: Masculino"
+     * 
+     */
+    public void print(){
+        System.out.println("Tengo "+ age +" años y el año que viene tendré " + (age + 1));
+        System.out.println(ageNowAndNextYear());
+        System.out.println(toString());
+        System.out.println(toString());
+    }    
+
+    /**
+     * 
+     */
+    private String ageNowAndNextYear(){
+        return "Tengo "+ age +" años y el año que viene tendré " + (age + 1);
+    }
+
+    /**
+     * Método que devuelve la cadena con todos los valores de sus atributos
+     * Con el siguiente formato con ejemplo;
+     * "Nombre: Fernando; Apellido: Alonso; Edad: 39; Género: Masculino"
+     * 
+     * 
+     * @return cadena con todos los valores de los atributos
+     */
+    public String toString() {
+        String result = "Nombre: " + this.getName().toUpperCase() + 
+            "; Apellido: " + this.getSurname() + 
+            "; Edad: " + this.getAge() + 
+            "; Género: " + this.getGender();
+        return result;
+    }
+
+    /**
+     * Devuelve Masculino o Femenino en función del valor del atributo gender
+     * 
+     * @return Masculino o Femenino, de tipo String
+     * 
+     */
+    private String genderToString()
+    {
+        if (gender == GENDER_MALE) {
+            return "Masculino";
+        } 
+        else {
+            return "Femenino";
+        }
+    }
+
+    /**
+     * Método que devuelve el valor númerico Age
+     *
+     * 
+     * @return     el valor requerido en función de cada condicional.
+     */
+    public int getCriticalAge()
+    {
+        if (getAge() < ADULTHOOD_AGE ) {        //edad inferior a 18
+            return ADULTHOOD_AGE  - getAge();        //años restantes para tener 18
+        }
+        else if (getAge() >= ADULTHOOD_AGE && getAge() < RETIREMENT_AGE ){  //edad entre 18 y 65
+            return RETIREMENT_AGE  - getAge();       //años restantes para tener 65
+        }
+        else {      //en el resto de casos (edad superior a 65)
+            return getAge() - RETIREMENT_AGE;       //años pasados desde los 65
+        }
+    }
+}

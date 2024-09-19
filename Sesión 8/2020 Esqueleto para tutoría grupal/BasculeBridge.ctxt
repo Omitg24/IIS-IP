@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BasculeBridge
+comment0.text=\r\n\ Ejercicio\ de\ tutor\u00EDa\ grupal\ I\r\n\ Control\ de\ un\ puente\ levadizo\ a\ trav\u00E9s\ de\ un\ controlador.\ \r\n\ \r\n\ @author\ Omar\ Teixeira\ Gonz\u00E1lez\r\n\ @version\ 6-10-20\r\n
+comment1.params=angle
+comment1.target=BasculeBridge(float)
+comment1.text=\r\n\ Constructor\ con\ un\ par\u00E1metro\ \r\n\ @param\ angle\ valor\ entero\ para\ almacenar\ el\ \u00E1ngulo\ [0\u00BA\ y\ 60\u00BA]\r\n
+comment2.params=newSlope
+comment2.target=void\ setSlope(float)
+comment2.text=\r\n\ Modifica\ la\ inclinaci\u00F3n\ del\ puente\r\n\ \r\n\ @param\ newSlope\ valor\ entero,\ nuevo\ \u00E1ngulo\ de\ inclinaci\u00F3n\r\n\r\n
+comment3.params=
+comment3.target=float\ getSlope()
+comment3.text=\r\n\ @return\ valor\ entero\ correspondiente\ al\ atributo\ \u00E1ngulo\ \ \r\n
+comment4.params=increment
+comment4.target=void\ raiseBridge(float)
+comment4.text=\r\n\ \ Incrementa\ la\ posici\u00F3n\ en\ un\ valor\ igual\ al\ par\u00E1metro\ de\ entrada\r\n\ \ @param\ \ increment\ valor\ entero\ positivo\ correspondiente\ al\ incremento\ de\ \u00E1ngulo\ a\ realizar\ en\ la\ inclinaci\u00F3n\ del\ puente\ \ \r\n
+comment5.params=decrement
+comment5.target=void\ dropBridge(float)
+comment5.text=\r\n\ \ Decrementa\ la\ posici\u00F3n\ en\ un\ valor\ igual\ al\ par\u00E1metro\ de\ entrada\r\n\ \ @param\ decrement\ valor\ entero\ positivo\ correspondiente\ al\ decremento\ de\ \u00E1ngulo\ que\ se\ realizar\u00E1\ en\ la\ inclinaci\u00F3n\ del\ puente\ \r\n
+numComments=6

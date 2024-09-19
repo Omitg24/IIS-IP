@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SwitchTest
+comment0.text=\r\n\ Clase\ Test\ para\ la\ Clase\ Switch\r\n\r\n\ @author\ \ Omar\ Teixeira\ Gonz\u00E1lez\r\n\ @version\ 23-10-20\r\n
+comment1.params=
+comment1.target=SwitchTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ LampTest\r\n
+comment2.params=
+comment2.target=void\ testSwitchPressFalse()
+comment2.text=\r\n\ 1-\ Si\ el\ Switch\ est\u00E1\ On\ (true)\ ->\ Cambiar\ a\ false\r\n
+comment3.params=
+comment3.target=void\ testSwitchPressTrue()
+comment3.text=\r\n\ 2-\ Si\ el\ Switch\ est\u00E1\ Off\ (false)\ ->\ Cambiar\ a\ true\r\n
+comment4.params=
+comment4.target=void\ testSwitchToStringOn()
+comment4.text=\r\n\ 1-\ Si\ el\ Switch\ est\u00E1\ Off\ (false)\ ->\ Mostrar\ "ON"\r\n
+comment5.params=
+comment5.target=void\ testSwitchToStringOff()
+comment5.text=\r\n\ 2-\ Si\ el\ Switch\ est\u00E1\ On\ (true)\ ->\ Mostrar\ "OFF"\r\n
+numComments=6

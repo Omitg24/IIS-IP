@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Seminario_6
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Seminario_6\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=v1\ v2
+comment1.target=int[]\ concatenate(int[],\ int[])
+comment1.text=\r\n\ Ejercicio\ 3\:\r\n\r\n\ @param\ \ \ v1,\ vector\ de\ enteros\r\n\ @param\ \ \ v2,\ vector\ de\ enteros\r\n\ @return\ un\ vector\ de\ enteros\ resultado\ de\ la\ concatenaci\u00F3n\ de\ los\ que\ se\ recibe\ como\ par\u00E1metrs\r\n
+comment2.params=condition\ msg
+comment2.target=void\ checkParam(boolean,\ java.lang.String)
+comment2.text=\r\n\ M\u00E9todo\ que\ controla\ el\ par\u00E1metro\ y\ devuelve\ un\ mensaje\r\n\ \r\n
+numComments=3

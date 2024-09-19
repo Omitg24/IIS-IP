@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Position
+comment0.text=\r\n\ Clase\ Position\:\r\n\ Tarea\ No\ Presencial\ Sesi\u00F3n\ 13\:\r\n\ \ \ \ \ \ Implementacion\ de\ set\ y\ get\ de\ column\r\n\ \r\n\ @author\ Omar\ Teixeira\ Gonz\u00E1lez\r\n\ @version\ 14-12-20\r\n
+comment1.params=row\ column
+comment1.target=Position(int,\ int)
+comment1.text=\r\n\ Constructor\ con\ par\u00E1metros\ row\ y\ column\ para\ la\ clase\ Position\r\n
+comment2.params=row
+comment2.target=void\ setRow(int)
+comment2.text=\r\n\ M\u00E9todo\ que\ modifica\ el\ valor\ del\ atributo\ row\r\n\ \r\n\ @param\ \ \ row,\ fila\ del\ avi\u00F3n\ de\ tipo\ int\r\n
+comment3.params=column
+comment3.target=void\ setColumn(int)
+comment3.text=\r\n\ M\u00E9todo\ que\ modifica\ el\ valor\ del\ atributo\ column\r\n\ \r\n\ @param\ \ \ column,\ columna\ del\ avi\u00F3n\ de\ tipo\ int\r\n
+comment4.params=
+comment4.target=int\ getRow()
+comment4.text=\r\n\ M\u00E9todo\ que\ devuelve\ la\ fila\r\n\ \r\n\ @return\ \ row\r\n
+comment5.params=
+comment5.target=int\ getColumn()
+comment5.text=\r\n\ M\u00E9todo\ que\ devuelve\ la\ columna\r\n\ \r\n\ @returm\ \ column\r\n
+numComments=6

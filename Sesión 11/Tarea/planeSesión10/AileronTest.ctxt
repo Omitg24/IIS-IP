@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=AileronTest
+comment0.text=\r\n\ The\ test\ class\ AileronTest.\r\n\r\n\ @author\ \ Omar\ Teixeira\r\n\ @version\ 12-11-20\r\n
+comment1.params=
+comment1.target=AileronTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ AileronTest\r\n
+comment2.params=
+comment2.target=void\ testConstructorWithoutParams()
+comment2.text=\r\n\ Pruebas\ para\ el\ constructor\ sin\ par\u00E1metros\ de\ la\ clase\ Aileron\r\n
+comment3.params=
+comment3.target=void\ testRollInMinLimit()
+comment3.text=\r\n\ 1-\ Par\u00E1metro\ en\ el\ l\u00EDmite\ inferior\ ->\ Se\ cambia\ el\ valor\r\n
+comment4.params=
+comment4.target=void\ testRollInMaxLimit()
+comment4.text=\r\n\ 2-\ Par\u00E1metro\ en\ el\ l\u00EDmite\ superior\ ->\ Se\ cambia\ el\ valor\r\n
+comment5.params=
+comment5.target=void\ testRollInsideLimits()
+comment5.text=\r\n\ 3-\ Par\u00E1metro\ entre\ el\ l\u00EDmite\ inferior\ y\ el\ superior\ ->\ Se\ cambia\ el\ valor\r\n
+comment6.params=
+comment6.target=void\ testRollUnderMinLimit()
+comment6.text=\r\n\ 4-\ Par\u00E1metro\ por\ debajo\ del\ l\u00EDmite\ inferior\ ->\ No\ se\ cambia\ el\ valor\r\n
+comment7.params=
+comment7.target=void\ testRollOverMaxLimit()
+comment7.text=\r\n\ 5-\ Par\u00E1metro\ por\ encima\ del\ l\u00EDmite\ superior\ ->\ No\ se\ cambia\ el\ valor\r\n
+numComments=8

@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=Product
+comment0.text=\r\n\ Clase\ para\ modelar\ los\ productos\ del\ almac\u00C3\u00A9n\r\n\ \r\n\ @author\ Omar\ Teixeira\ Gonz\u00E1lez\r\n\ @version\ 14-12-20\r\n
+comment1.params=code\ price\ amount
+comment1.target=Product(java.lang.String,\ double,\ int)
+comment1.text=\r\n\ Constructor\ con\ par\u00F3metros\ que\ crea\ objetos\ producto\r\n\ @param\ code\ string\ de\ 6\ caracteres\r\n\ @param\ price,\ float\ >\=0\r\n\ @param\ amount,\ int\ >\=\ 0\r\n
+comment2.params=code
+comment2.target=void\ setCode(java.lang.String)
+comment2.text=\r\n\ Modifica\ el\ valor\ del\ c\u00C3\u00B3digo\r\n\ \r\n\ @param\ code\ debe\ ser\ una\ cadena\ de\ 6\ caracteres\r\n
+comment3.params=price
+comment3.target=void\ setPrice(double)
+comment3.text=\r\n\ Modifica\ el\ valor\ del\ pecio\r\n\ \r\n\ @param\ \ price\ el\ precio\ debe\ ser\ >\=0\r\n\ \r\n
+comment4.params=amount
+comment4.target=void\ setAmount(int)
+comment4.text=\r\n\ Modifica\ el\ valor\ de\ la\ contidad\ del\ producto\r\n\ \r\n\ @param\ amount\ la\ cantidad\ debe\ ser\ >\=0\r\n
+comment5.params=
+comment5.target=int\ getAmount()
+comment5.text=\r\n\ Devuelve\ el\ n\u00FAmero\ de\ unidades\ del\ producto\r\n\ \r\n\ @return\ amount,\ cantidad\ de\ art\u00EDculos\ del\ producto\r\n
+comment6.params=
+comment6.target=java.lang.String\ getCode()
+comment6.text=\r\n\ Devuelve\ el\ c\u00EDdigo\ del\ producto\r\n\ \r\n\ @return\ el\ c\u00EDdigo\ del\ art\u00EDculo\r\n
+comment7.params=amount
+comment7.target=void\ changeStock(int)
+comment7.text=\r\n\ Asigna\ nueva\ cantidad\ de\ unidades\ al\ producto\r\n\ \r\n\ @param\ amount\ n\u00FAmero\ de\ unidades\ \r\n
+comment8.params=condition\ msg
+comment8.target=void\ checkParam(boolean,\ java.lang.String)
+comment8.text=\r\n\ Si\ no\ se\ cumple\ la\ condici\u00F3n\ salta\ excepci\u00F3n\ RuntimeException\r\n\ \r\n\ @param\ condition\ expresi\u00F3n\ booleana\ a\ evaluar\r\n\ @param\ mensaje\ cadena\ de\ texto\ a\ mostrar\ si\ se\ produce\ el\ error\r\n
+comment9.params=code
+comment9.target=void\ checkString(java.lang.String)
+comment9.text=\r\n\ Comprueba\ que\ el\ c\u00F3digo\ tenga\ 6\ caracteres,\ si\ no,\ lanza\ excepci\u00F3n\r\n\ \r\n\ @param\ code\ la\ cadena\ del\ c\u00F3digo\ del\ producto\r\n
+numComments=10

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Store
+comment0.text=\r\n\ Clase\ Store\r\n\ \r\n\ @author\ Omar\ Teixeira\ Gonz\u00E1lez\r\n\ @version\ 14-12-20\r\n
+comment1.params=listProducts
+comment1.target=Store(Product[])
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Store\r\n
+comment2.params=
+comment2.target=java.util.ArrayList\ getProducts()
+comment2.text=\r\n\ M\u00E9todo\ que\ devuelve\ una\ copia\ de\ la\ lista\ de\ productos\r\n\ \r\n\ @return\ \ productsCopy,\ copia\ de\ la\ lista\ de\ productos\r\n
+comment3.params=amount
+comment3.target=java.util.ArrayList\ deleteProducts(int)
+comment3.text=\r\n\ M\u00E9todo\ que\ elimina\ todos\ los\ productos\ que\ tienen\ una\ cantidad\ menor\ o\ igual\ a\ la\ introducida\ por\ par\u00E1metro\ y\ devuelve\ un\ array\ con\ los\ \r\n\ eliminados\r\n\ \r\n\ @param\ \ \ amount,\ cantidad\ de\ los\ productos,\ de\ tipo\ int\r\n\ @return\ \ removed,\ arrayList<Product>\ con\ los\ objetos\ eliminados\r\n
+comment4.params=condition\ msg
+comment4.target=void\ checkParam(boolean,\ java.lang.String)
+comment4.text=\r\n\ Si\ no\ se\ cumple\ la\ condici\u00F3n\ salta\ excepci\u00F3n\ RuntimeException\r\n\ \r\n\ @param\ condition\ expresi\u00F3n\ booleana\ a\ evaluar\r\n\ @param\ mensaje\ cadena\ de\ texto\ a\ mostrar\ si\ se\ produce\ el\ error\r\n
+numComments=5

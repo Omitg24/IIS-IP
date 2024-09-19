@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Aileron
+comment0.text=\r\n\ Clase\ Aileron\:\r\n\ \ \ \ \ \ Constructor\ sin\ par\u00E1metros\r\n\ \ \ \ \ \ Constructor\ con\ par\u00E1metro\r\n\ \ \ \ \ \ M\u00E9todos\ set\ y\ get\ del\ atributo\ Angle\r\n\ \ \ \ \ \ M\u00E9todo\ roll\r\n\ \r\n\ @author\ Omar\ Teixeira\ Gonz\u00E1lez\r\n\ @version\ 14-12-20\r\n
+comment1.params=
+comment1.target=Aileron()
+comment1.text=\r\n\ Constructor\ sin\ par\u00E1metros\ para\ la\ clase\ Aileron\r\n
+comment2.params=angle
+comment2.target=Aileron(double)
+comment2.text=\r\n\ Constructor\ con\ par\u00E1metro\ angle\ para\ la\ clase\ Aileron\r\n
+comment3.params=condition
+comment3.target=boolean\ checkParam(boolean)
+comment3.text=\r\n\ Comprueba\ que\ el\ parametro\ es\ o\ no\ correcto\r\n\r\n\ @param\ \ condition,\ condici\u00F3n\ a\ evaluar,\ de\ tipo\ boolean\r\n\ @return\ \ \ \ \ true\ o\ false\ en\ funci\u00F3n\ del\ par\u00E1metro\r\n
+comment4.params=
+comment4.target=double\ getAngle()
+comment4.text=\r\n\ M\u00E9todo\ que\ devuelve\ el\ \u00E1ngulo\ del\ aler\u00F3n\ del\ avi\u00F3n\r\n\ \r\n\ @return\ \ \ \ \ angle,\ \u00E1ngulo\ del\ aler\u00F3n\ del\ avi\u00F3n,\ de\ tipo\ double\r\n
+comment5.params=angle
+comment5.target=void\ setAngle(double)
+comment5.text=\r\n\ M\u00E9todo\ que\ modifica\ el\ valor\ del\ atributo\ angle\r\n\ \r\n\ @param\ \ \ angle,\ nuevo\ \u00E1ngulo\ para\ la\ clase\ Aileron,\ de\ tipo\ double\r\n
+comment6.params=angle
+comment6.target=void\ roll(double)
+comment6.text=\r\n\ M\u00E9todo\ que\ modifica\ el\ valor\ del\ \u00E1ngulo\ del\ aler\u00F3n\ al\ recibido\ como\ par\u00E1metro\r\n\ \r\n\ @param\ \ \ angle,\ nuevo\ angulo\ que\ tomara\ el\ aler\u00F3n,\ de\ tipo\ double\r\n
+numComments=7

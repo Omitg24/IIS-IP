@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=JoystickTest
+comment0.text=\r\n\ The\ test\ class\ JoystickTest.\r\n\r\n\ @author\ \ Omar\ Teixeira\ Gonz\u00E1lez\r\n\ @version\ 12-11-20\r\n
+comment1.params=
+comment1.target=JoystickTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ JoystickTest\r\n
+comment2.params=
+comment2.target=void\ testMoveInMinLimit()
+comment2.text=\r\n\ 1-\ El\ valor\ de\ position\ est\u00E1\ en\ el\ limite\ inferior\ ->\ Cambiar\ la\ posici\u00F3n\ del\ Joystick\ y\ como\ consecuencia\ el\ \u00E1ngulo\ de\ los\ dos\ alerones,\ con\ signo\ opuesto\r\n
+comment3.params=
+comment3.target=void\ testMoveInMaxLimit()
+comment3.text=\r\n\ 2-\ El\ valor\ de\ position\ est\u00E1\ en\ el\ limite\ superior\ ->\ Cambiar\ la\ posici\u00F3n\ del\ Joystick\ y\ como\ consecuencia\ el\ \u00E1ngulo\ de\ los\ dos\ alerones,\ con\ signo\ opuesto\r\n
+comment4.params=
+comment4.target=void\ testMoveInsideLimits()
+comment4.text=\r\n\ 3-\ El\ valor\ de\ position\ est\u00E1\ entre\ los\ l\u00EDmites\ ->\ Cambiar\ la\ posici\u00F3n\ del\ Joystick\ y\ como\ consecuencia\ el\ \u00E1ngulo\ de\ los\ dos\ alerones,\ con\ signo\ opuesto\r\n
+comment5.params=
+comment5.target=void\ testMoveIn0()
+comment5.text=\r\n\ 4-\ El\ valor\ de\ position\ es\ igual\ a\ 0\ ->\ Cambia\ la\ posici\u00F3n\ del\ Joystick\ y\ como\ consecuencia\ el\ \u00E1ngulo\ de\ los\ dos\ alerones\r\n
+comment6.params=
+comment6.target=void\ testMoveUnderMinLimit()
+comment6.text=\r\n\ 5-\ El\ valor\ de\ position\ es\ menor\ al\ l\u00EDmite\ inferior\ ->\ No\ se\ cambia\ el\ valor\ de\ position,\ as\u00ED\ como\ tampoco\ se\ cambia\ el\ valor\ de\ los\ dos\ alerones\r\n
+comment7.params=
+comment7.target=void\ testMoveOverMaxLimit()
+comment7.text=\r\n\ 6-\ El\ valor\ de\ position\ es\ mayor\ al\ l\u00EDmite\ superior\ ->\ No\ se\ cambia\ el\ valor\ de\ position,\ as\u00ED\ como\ tampoco\ se\ cambia\ el\ valor\ de\ los\ dos\ alerones\r\n
+numComments=8

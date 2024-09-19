@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=FlySimulatorTest
+comment0.text=\r\n\ Clase\ de\ prueba\ de\ la\ clase\ FlySimulator\r\n\r\n\ @author\ \ Omar\ Teixeira\ Gonzalez\r\n\ @version\ 14-12-20\r\n
+comment1.params=
+comment1.target=void\ testAddPlaneNormal()
+comment1.text=\r\n\ 1-\ A\u00F1adimos\ un\ avi\u00F3n\ que\ no\ existe\ en\ posici\u00F3n\ libre\r\n
+comment2.params=
+comment2.target=void\ testAddPlaneSameIdentifier()
+comment2.text=\r\n\ 2-\ A\u00F1adimos\ un\ avi\u00F3n\ con\ identificador\ que\ ya\ existe\r\n
+comment3.params=
+comment3.target=void\ testAddPlaneSamePosition()
+comment3.text=\r\n\ 3-\ A\u00F1adimos\ avi\u00F3n\ en\ posici\u00F3n\ ya\ ocupada\r\n
+comment4.params=
+comment4.target=void\ testAddPlaneNull()
+comment4.text=\r\n\ 4-\ A\u00F1adimos\ null\ \ \ \ \ \ \r\n
+comment5.params=
+comment5.target=void\ testFlySymulatorCollision4Planes()
+comment5.text=\r\n\ -\ Son\ 4\ aviones\r\n
+comment6.params=
+comment6.target=void\ testFlySymulatorCollision3Planes()
+comment6.text=\r\n\ -\ Son\ 3\ aviones\r\n
+comment7.params=
+comment7.target=void\ testGetPositionOk()
+comment7.text=\r\n\ 1-\ Columna\ y\ fila\ dentro\ de\ par\u00E1metros\r\n
+numComments=8

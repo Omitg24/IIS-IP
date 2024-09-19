@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Example
+comment1.params=
+comment1.target=Example()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Example\r\n
+comment2.params=
+comment2.target=void\ fillCollections()
+comment3.params=
+comment3.target=void\ showCollections()
+comment4.params=
+comment4.target=java.lang.String\ choosePrize()
+comment5.params=
+comment5.target=java.lang.String\ chooseNumber()
+comment6.params=howMany
+comment6.target=void\ rafflePrizes(int)
+comment7.params=condition\ msg
+comment7.target=void\ checkParam(boolean,\ java.lang.String)
+numComments=8

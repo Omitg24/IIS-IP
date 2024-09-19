@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Potentiometer
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Potentiometer\ here.\r\n\ \r\n\ @author\ Omar\ Teixeira\ Gonz\u00E1lez\r\n\ @version\ 23-10-20\r\n
+comment1.params=
+comment1.target=Potentiometer()
+comment1.text=\r\n\ Constructor\ sin\ par\u00E1metros\ para\ la\ clase\ Potentiometer\r\n
+comment2.params=position
+comment2.target=Potentiometer(int)
+comment2.text=\r\n\ Constructor\ con\ par\u00E1metro\ Potentiometer\ para\ la\ clase\ Potentiometer\r\n
+comment3.params=condition
+comment3.target=boolean\ checkParam(boolean)
+comment3.text=\r\n\ Comprueba\ que\ el\ parametro\ es\ o\ no\ correcto\r\n\r\n\ @param\ \ condition,\ condici\u00F3n\ a\ evaluar,\ de\ tipo\ boolean\r\n\ @return\ \ \ \ \ true\ o\ false\ en\ funci\u00F3n\ del\ par\u00E1metro\r\n
+comment4.params=
+comment4.target=int\ getPosition()
+comment4.text=\r\n\ M\u00E9todo\ que\ devuelve\ el\ valor\ de\ la\ posicion\r\n\ \r\n\ @return\ position,\ el\ valor\ de\ la\ posici\u00F3n,\ de\ tipo\ int\r\n
+comment5.params=position
+comment5.target=void\ movePosition(int)
+comment5.text=\r\n\ M\u00E9todo\ que\ modifica\ el\ valor\ de\ la\ posicion\r\n\ \r\n\ @param\ position,\ nuevo\ valor\ para\ la\ posici\u00F3n,\ de\ tipo\ int\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ M\u00E9todo\ que\ devuelve\ la\ cadena\ con\ el\ valor\ de\ la\ temperatura\ correspondiente\r\n\ \r\n\ @return\ toString,\ cadena\ con\ el\ valor\ correspondiente,\ de\ tipo\ String\r\n
+numComments=7

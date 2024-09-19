@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Seminario5_S3
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Seminario5_S3\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=number
+comment1.target=int\ factorialFor(int)
+comment2.params=number
+comment2.target=int\ factorialWhile(int)
+comment3.params=persons
+comment3.target=java.util.ArrayList\ youngPeople(java.util.ArrayList)
+numComments=4

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Lamp
+comment0.text=\r\n\ Clase\ Lamp\:\r\n\ Tarea\ No\ Presencial\ Sesi\u00F3n\ 6\:\r\n\ M\u00E9todos\ set\ y\ get\ del\ atributo\ state\r\n\ Constantes\ LAMP_ON\ y\ LAMP_OFF\r\n\ M\u00E9todos\ turnOn\ y\ turnOff\ para\ modificar\ el\ estado\ de\ la\ bombilla\r\n\ M\u00E9todo\ toSring\ que\ devuelve\ "ENCENDIDA"\ o\ "APAGADA"\ en\ funci\u00F3n\ del\ estado\ de\ la\ bombilla.\r\n\ \r\n\ @author\ Omar\ Teixeira\ Gonz\u00E1lez\r\n\ @version\ 23-10-20\r\n
+comment1.params=
+comment1.target=Lamp()
+comment1.text=\r\n\ Constructor\ sin\ par\u00E1metros\ para\ la\ clase\ Lamp\r\n
+comment2.params=state
+comment2.target=Lamp(boolean)
+comment2.text=\r\n\ Constructor\ con\ par\u00E1metro\ state\ para\ la\ clase\ Lamp\r\n
+comment3.params=
+comment3.target=boolean\ getState()
+comment3.text=\r\n\ M\u00E9todo\ que\ devuelve\ el\ true\ o\ false\ en\ funci\u00F3n\ de\ si\ la\ bombilla\ est\u00E1\ encendida\ o\ apagada\r\n\ \r\n\ @return\ \ state,\ el\ estado,\ de\ tipo\ boolean\ \r\n
+comment4.params=state
+comment4.target=void\ setState(boolean)
+comment4.text=\r\n\ M\u00E9todo\ que\ modifica\ el\ estado\ de\ la\ bombilla\r\n\ \r\n\ @param\ \ \ state,\ nuevo\ estado\ de\ la\ bombilla\ para\ el\ atributo\ state\r\n
+comment5.params=
+comment5.target=void\ turnOn()
+comment5.text=\r\n\ M\u00E9todo\ que\ modifica\ (enciende)\ el\ estado\ de\ la\ bombilla\r\n
+comment6.params=
+comment6.target=void\ turnOff()
+comment6.text=\r\n\ M\u00E9todo\ que\ modifica\ (apaga)\ el\ estado\ de\ la\ bombilla\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ M\u00E9todo\ que\ devuelve\ "ENCENDIDA"\ si\ el\ estado\ es\ igual\ a\ true\ y\ "APAGADA"\ si\ el\ estado\ es\ igual\ a\ falsa\r\n\ \r\n\ @return\ \ \ \ \ \ "ENCENDIDA"\ o\ "APAGADA",\ de\ tipo\ String\r\n
+numComments=8

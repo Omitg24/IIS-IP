@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=Figure
+comment0.text=\r\n\ Clase\ Figure\ del\ proyecto\ Nunchuk\:\r\n\ \r\n\ @author\ Omar\ Teixeira\ Gonz\u00E1lez\ \r\n\ @version\ 30-10-20\r\n
+comment1.params=
+comment1.target=Figure()
+comment1.text=\r\n\ Constructor\ sin\ par\u00E1metros\ para\ la\ clase\ figure\r\n
+comment10.params=direction
+comment10.target=void\ move(char)
+comment10.text=\r\n\ M\u00E9todo\ que\ modifica\ la\ posici\u00F3n\ x\ o\ la\ posici\u00F3n\ y\ en\ funci\u00F3n\ del\ par\u00E1metro\ char\ que\ reciba,\ es\ decir,\ si\ 'L',\ la\ posici\u00F3n\r\n\ retrocede\ en\ uno,\ si\ es\ 'U'\ aumenta\ la\ posici\u00F3n\ y\ en\ uno,\ y\ viceversa\:\r\n\ 'L'\ \=>\ -1\r\n\ 'R'\ \=>\ +1\r\n\ 'D'\ \=>\ -1\r\n\ 'U'\ \=>\ +1\r\n\ \r\n\ @param\ direction,\ direcci\u00F3n\ que\ realizar\u00E1\ el\ objeto,\ de\ tipo\ char\r\n
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment11.text=\r\n\ M\u00E9todo\ que\ devulve\ una\ cadena\ con\ el\ nombre,\ la\ posici\u00F3n\ x\ y\ la\ posici\u00F3n\ y\ con\ el\ siguiente\ formato\:\r\n\ Omar-(18,14)\r\n\ \r\n\ @return\ \ la\ cadena\ con\ el\ nombre,\ la\ posici\u00F3n\ x\ y\ la\ posici\u00F3n\ y,\ de\ tipo\ String\r\n
+comment2.params=name\ xPos\ yPos
+comment2.target=Figure(java.lang.String,\ int,\ int)
+comment2.text=\r\n\ Constructor\ con\ par\u00E1metros\ name,\ xPos\ e\ yPos\ de\ la\ clase\ Figure\r\n
+comment3.params=condition
+comment3.target=boolean\ checkParam(boolean)
+comment3.text=\r\n\ Comprueba\ que\ el\ parametro\ es\ o\ no\ correcto\r\n\r\n\ @param\ \ condition,\ condici\u00F3n\ a\ evaluar,\ de\ tipo\ boolean\r\n\ @return\ \ \ \ \ true\ o\ false\ en\ funci\u00F3n\ del\ par\u00E1metro\r\n
+comment4.params=name
+comment4.target=void\ setName(java.lang.String)
+comment4.text=\r\n\ M\u00E9todo\ que\ modifica\ el\ valor\ del\ atributo\ name\ \r\n\ \r\n\ @param\ \ name,\ el\ nuevo\ nombre\ para\ la\ figura,\ de\ tipo\ String\r\n
+comment5.params=
+comment5.target=java.lang.String\ getName()
+comment5.text=\r\n\ M\u00E9todo\ que\ devuelve\ el\ valor\ del\ atributo\ name\r\n\ \r\n\ @return\ name,\ el\ nombre\ de\ la\ figura,\ de\ tipo\ String\r\n
+comment6.params=xPos
+comment6.target=void\ setXPos(int)
+comment6.text=\r\n\ M\u00E9todo\ que\ modifica\ el\ valor\ del\ atributo\ xPos\ \r\n\ \r\n\ @param\ \ xPos,\ la\ nueva\ posici\u00F3n\ x\ para\ la\ figura,\ de\ tipo\ int\r\n
+comment7.params=
+comment7.target=int\ getXPos()
+comment7.text=\r\n\ M\u00E9todo\ que\ devuelve\ el\ valor\ del\ atributo\ xPos\r\n\ \r\n\ @return\ xPos,\ la\ posici\u00F3n\ x\ de\ la\ figura,\ de\ tipo\ int\r\n
+comment8.params=yPos
+comment8.target=void\ setYPos(int)
+comment8.text=\r\n\ M\u00E9todo\ que\ modifica\ el\ valor\ del\ atributo\ yPos\ \r\n\ \r\n\ @param\ \ yPos,\ la\ nueva\ posici\u00F3n\ y\ para\ la\ figura,\ de\ tipo\ int\r\n
+comment9.params=
+comment9.target=int\ getYPos()
+comment9.text=\r\n\ M\u00E9todo\ que\ devuelve\ el\ valor\ del\ atributo\ yPos\r\n\ \r\n\ @return\ yPos,\ la\ posici\u00F3n\ y\ de\ la\ figura,\ de\ tipo\ int\r\n
+numComments=12

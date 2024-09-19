@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=WheelStrutTest
+comment0.text=\r\n\ The\ test\ class\ WheelStrutTest.\r\n\r\n\ @author\ \ Omar\ Teixeira\ Gonz\u00E1lez\r\n\ @version\ 28-10-20\r\n
+comment1.params=
+comment1.target=void\ testConstructorWithoutParams()
+comment1.text=\r\n\ Pruebas\ de\ constructor\ sin\ par\u00E1metros\r\n\ Agina\ los\ siguientes\ datos\r\n\ Puntal\ desplegado\r\n\ Ruedas\ izquiderda\ y\ derecha\ con\ la\ presi\u00F3n\ m\u00E1xima\ y\ actual\ del\ Boeing\ 7373\r\n
+comment2.params=
+comment2.target=void\ testTestBothWheelOk()
+comment2.text=\r\n\ 1-\ Las\ dos\ ruedas\ operativas\ ->\ TrueassertNotNull(wheelStrut1.getLeftWheel());\r\n
+comment3.params=
+comment3.target=void\ testTestBothWheelNotOk()
+comment3.text=\r\n\ 1-\ Las\ dos\ ruedas\ operativas\ ->\ TrueassertNotNull(wheelStrut1.getLeftWheel());\r\n
+comment4.params=
+comment4.target=void\ testTestOneWheelOk()
+comment4.text=\r\n\ 1-\ Las\ dos\ ruedas\ operativas\ ->\ TrueassertNotNull(wheelStrut1.getLeftWheel());\r\n
+comment5.params=
+comment5.target=void\ testPrint1()
+comment5.text=\r\n\ 1-\ Puntal\ desplegado\ y\ test\ true\r\n
+comment6.params=
+comment6.target=void\ testPrint2()
+comment6.text=\r\n\ 1-\ Puntal\ desplegado\ y\ test\ true\r\n
+numComments=7

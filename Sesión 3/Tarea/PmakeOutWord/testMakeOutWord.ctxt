@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=testMakeOutWord
+comment0.text=\r\n\ The\ test\ class\ testMakeOutWord.\r\n\r\n\ @author\ \ Omar\ Teixeira\ Gonz\u00E1lez\r\n\ @version\ 30/09/2020\r\n
+comment1.params=
+comment1.target=testMakeOutWord()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ testMakeOutWord\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment4.params=
+comment4.target=void\ testmakeOutWord1()
+comment4.text=\r\n\ 1-\ Palabra\ "Yay"\ entre\ "<<>>"\r\n
+comment5.params=
+comment5.target=void\ testmakeOutWord2()
+comment5.text=\r\n\ 2-\ Palabra\ "WooHoo"\ entre\ "<<>>"\r\n
+numComments=6

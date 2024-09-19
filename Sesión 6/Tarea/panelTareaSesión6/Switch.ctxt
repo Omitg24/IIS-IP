@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Switch
+comment0.text=\r\n\ Clase\ Switch\:\r\n\ Tarea\ No\ Presencial\ Sesi\u00F3n\ 6\:\r\n\ M\u00E9todos\ set\ y\ get\ para\ el\ atributo\ state\r\n\ Constantes\ SWITCH_ON\ y\ SWITCH_OFF\r\n\ M\u00E9todo\ press()\ que\ alterna\ entre\ los\ dos\ estados\ posibles\ (ON,\ OFF)\ del\ switch\r\n\ M\u00E9todo\ toString\r\n\ \r\n\ @author\ Omar\ Teixeira\ Gonz\u00E1lez\r\n\ @version\ 23-10-20\r\n
+comment1.params=
+comment1.target=Switch()
+comment1.text=\r\n\ Constructor\ sin\ par\u00E1metros\ para\ la\ clase\ Switch\r\n
+comment2.params=state
+comment2.target=Switch(boolean)
+comment2.text=\r\n\ Constructor\ con\ par\u00E1metro\ state\ para\ la\ clase\ Switch\r\n
+comment3.params=
+comment3.target=boolean\ getState()
+comment3.text=\r\n\ M\u00E9todo\ que\ devuelve\ el\ true\ o\ false\ en\ funci\u00F3n\ de\ si\ el\ switch\ est\u00E1\ encendido\ o\ apagado\r\n\ \r\n\ @return\ \ state,\ el\ estado,\ de\ tipo\ boolean\ \r\n
+comment4.params=state
+comment4.target=void\ setState(boolean)
+comment4.text=\r\n\ M\u00E9todo\ que\ modifica\ el\ estado\ del\ switch\r\n\ \r\n\ @param\ \ \ state,\ nuevo\ estado\ del\ switch\ para\ el\ atributo\ state\r\n
+comment5.params=
+comment5.target=void\ press()
+comment5.text=\r\n\ M\u00E9todo\ que\ alterna\ el\ estado\ del\ swtich\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ M\u00E9todo\ que\ devuelve\ "ON"\ si\ el\ estado\ es\ igual\ a\ true\ y\ "OFF"\ si\ el\ estado\ es\ igual\ a\ falsa\r\n\ \r\n\ @return\ \ \ \ \ \ "ON"\ o\ "OFF",\ de\ tipo\ String\r\n
+numComments=7

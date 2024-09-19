@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=LampTest
+comment0.text=\r\n\ Clase\ Test\ para\ la\ Clase\ Lamp\r\n\r\n\ @author\ \ Omar\ Teixeira\ Gonz\u00E1lez\r\n\ @version\ 23-10-20\r\n
+comment1.params=
+comment1.target=LampTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ LampTest\r\n
+comment2.params=
+comment2.target=void\ testLampTurnOn()
+comment2.text=\r\n\ \r\n
+comment3.params=
+comment3.target=void\ testLampTurnOff()
+comment3.text=\r\n\ \r\n
+comment4.params=
+comment4.target=void\ testLampOnToString()
+comment4.text=\r\n\ 1-\ Si\ utilizamos\ el\ m\u00E9todo\ Turn\ On\ ->\ "ENCENDIDA"\r\n
+comment5.params=
+comment5.target=void\ testLampOffToString()
+comment5.text=\r\n\ 2-\ Si\ utilizamos\ el\ m\u00E9todo\ Turn\ Off\ ->\ "APAGADA"\r\n
+numComments=6
